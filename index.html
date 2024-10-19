@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>For my girlfriend audrey</tittle>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                background-color: #f2f2f2;
+                padding: 50px;
+            }
+            .card {
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                max-width: 600px;
+                margin: auto;
+            }
+            h1 {
+                color: #ff66b2;
+            }
+            p {
+                font-size: 18px;
+                color: #333;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 10px;
+            }
+            .button {
+                display: inline-block;
+                padding: 10px 20px;
+                font-size: 16px;
+                color: #fff;
+                background-color: #ff66b2;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <h1>To My Dearest Love Audrey Bunga Zahira</h1>
+            <p>Aku ingin bilang bahwa aku cinta sama kamu aku sayang sama kamu, dan semoga kamu begitu juga. maaf kalo aku buat kamu badmood dan cemberut terus, tapi saat sama temen kamu, kamu sangat bahagia. aku merasa bahwa aku gagal menjadi pasangan yang baik buat kamu, jadi aku minta maaf yaa kalo misalkan aku gagal membuat kamu tersenyum. aku hanya ingin bilang bahwa aku sangat menyayangi kamu dan mencintai kamu sepenuhnya. i love you audrey bunga zahira semoga kita dapat membuat lukisan dan cerita yang banyak kedepannya sampai kita menikah yaa. i love youu sayangkuu cantikk.</p>
+            <img src="IMG_5792.jpg" alt="A beautiful photo of us">
+            <p>Click the button below that remind me of us</p>
+            <button class="button" onclick="playsong()">play Song</button>
+        </div>
+        <audio id="romanticSong" src="HONNE - Location Unknown ◐ (feat. BEKA) (Brooklyn Session).mp3"></audio>
+        <script>
+            function playsong() {
+                var song = document.getElementById("romanticSong");
+                song.play();
+            }
+        </script>
+    </body>
+</html>
